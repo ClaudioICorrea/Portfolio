@@ -1,3 +1,7 @@
+html {
+    font-family: 'Rufina',sans-serif;
+}
+
 body {
     background-color: #efefef;
     margin: 0;
@@ -94,4 +98,69 @@ html body nav ul li a {
 
 a.btn {
     color: #fff;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    width: 1200px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.orange {
+    color: #f84f07;
+}
+
+.padded {
+    padding: 20px 30px;
+}
+
+.vert-pad {
+    padding: 20px 0;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 1px 2px #ddd;
+    border: solid 1px #ddd;
+    border-radius: 5px;
+    padding: 20px 30px;
+}
+
+.third{
+    width: 360px;
+    margin: 20px;
+}
+
+.contact-form input{
+    font-family: 'Rubik', sans-serif;
+    border: none;
+    height: 30px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    width: calc(100% - 20px);
+}
+
+.contact-form textarea{
+    font-family: 'Rubik', sans-serif;
+    border: none;
+    height: 100px;
+    padding: 15px 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    width: calc(100% - 20px);
+    margin-bottom: 15px;
+    resize:none;
+}
+
+.full-width{
+    width: 100%;
 }
