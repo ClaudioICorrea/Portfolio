@@ -18,7 +18,7 @@
         <nav>
             <ul>
                 <li><a href='{{ url_for('portfolio.index') }}'>Inicio</a></li>
-                <li><a href='{{ url_for('portfolio.index') }}'>Proyectos</a></li>
+                <li><a href='#proyecto'>Proyectos</a></li>
                 <li><a href='{{ url_for('portfolio.index') }}'>Publicaciones</a></li>
                 <li><a href='#contacto'>Contacto </a></li>
             </ul>
@@ -27,3 +27,32 @@
     <section> {% block content %}{% endblock %}</section>
 </body>
 
+<footer>
+    <div class="footer">
+        <div class ='center full-width'>
+            <div class ='row'>
+                <h3>Contáctame! </h3> 
+                <div class="gif">
+                    <img src="{{ url_for('static', filename='watoncito.gif') }}" width=50px/>
+                </div>
+            </div>
+        </div>
+        <div class ='center full-width'>
+            <div class ='row'>
+                <p> O tambien puedes seguirme en mis redes sociales </p>
+            </div>
+        </div>
+        <div class ='center full-width social-link'>
+            <div class ='row'>
+                <a href='https://github.com/ClaudioICorrea'><img class="social" src="{{ url_for('static', filename='GitHup_icon.png') }}" width=50px/> </a>
+                <a href='https://www.instagram.com/lukerolero/'><img class="social" src="{{ url_for('static', filename='Instagram-Icon.png')}}" width=45px/> </a>
+                <a href='https://www.linkedin.com/in/claudio-correa-barria/'><img class="social" src="{{ url_for('static', filename='linkedin.png') }}" width=50px/> </a>
+            </div>
+        </div>
+        <div class='made-by'>
+            <div class="row">
+                <p>Hecho en su totalidad por Claudio I. Correa Barría</p>
+            </div>
+        </div>
+    </div>
+</footer>
